@@ -36,6 +36,7 @@ namespace IljaH2
         private void btn2_Clicked_1(object sender, EventArgs e)
         {
             clik = 0;
+            btn.Text = clik.ToString();
         }
     }
 }

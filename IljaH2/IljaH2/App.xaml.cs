@@ -10,7 +10,7 @@ namespace IljaH2
         {
             InitializeComponent();
 
-            MainPage = new StackPage();
+            MainPage = new ValgusfoorPage();
         }
 
         protected override void OnStart()

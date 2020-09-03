@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IljaH2.ValgusfoorPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <BoxView x:Name="box1" Color="White"
+             CornerRadius="100"
+             WidthRequest="160"
+             HeightRequest="160"
+             VerticalOptions="Center"
+             HorizontalOptions="Center" />
+                <BoxView x:Name="box2" Color="White"
+             CornerRadius="100"
+             WidthRequest="160"
+             HeightRequest="160"
+             VerticalOptions="Center"
+             HorizontalOptions="Center" />
+                <BoxView x:Name="box3" Color="White"
+             CornerRadius="100"
+             WidthRequest="160"
+             HeightRequest="160"
+             VerticalOptions="Center"
+             HorizontalOptions="Center" />
+                <StackLayout Orientation="Horizontal">
+                    <Button x:Name="btn" Text="ON" FontSize="Large" Clicked="btn_Clicked">
+
+                    </Button>
+                    <Button x:Name="btn1" Text="OFF" FontSize="Large" Clicked="btn_Clicked_1">
+
+                    </Button>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
