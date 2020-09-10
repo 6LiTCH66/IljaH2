@@ -10,7 +10,7 @@ namespace IljaH2
         {
             InitializeComponent();
 
-            MainPage = new Valgusfoor2();
+            MainPage = new RGBModelPage();
         }
 
         protected override void OnStart()
